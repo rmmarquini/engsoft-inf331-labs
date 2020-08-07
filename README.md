@@ -2,7 +2,7 @@
     <img src="img/unicamp.png" width=75px align="left" />
     <img src="img/ic.png" width=250px align="right" />
 </div>
-<br />
+<br /><br /><br /><br />
 <h1 align="center">INF331 - Componentização e Reuso de Software: Conceitos e Práticas</h1>
 
 ## :person: Aluno
