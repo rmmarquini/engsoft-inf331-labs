@@ -1,6 +1,6 @@
 <div id="header">
-    <img src="img/unicamp.png" width=75px style="float: left;" />
-    <img src="img/ic.png" width=250px style="float: right;" />
+    <img src="img/unicamp.png" width=75px style="display: block; float: left;" />
+    <img src="img/ic.png" width=250px style="display: block; float: right;" />
     <div style="clear: both"></div>
     <br />
     <span style="text-align: center;"><strong>INF331 - Componentização e Reuso de Software: Conceitos e Práticas</strong></span>
