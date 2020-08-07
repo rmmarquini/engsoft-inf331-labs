@@ -9,8 +9,8 @@
 * Rafael Mardegan Marquini
 
 ## :computer: Laboratórios
-* [Lab1](https://github.com/rmmarquini/engsoft-inf331-labs/lab1)
-* [Lab2](https://github.com/rmmarquini/engsoft-inf331-labs/lab2)
+* [Lab1](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab1)
+* [Lab2](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab2)
 
 ## :memo: License
 This project is under the MIT license.
