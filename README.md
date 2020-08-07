@@ -1,7 +1,9 @@
 <div id="header">
     <img src="img/unicamp.png" width=75px style="float: left;" />
-    <span style="text-align: center;"><strong>INF331 - Componentização e Reuso de Software: Conceitos e Práticas</strong></span>
     <img src="img/ic.png" width=250px style="float: right;" />
+    <div style="clear: both"></div>
+    <br />
+    <span style="text-align: center;"><strong>INF331 - Componentização e Reuso de Software: Conceitos e Práticas</strong></span>
 </div>
 <br />
 
