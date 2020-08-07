@@ -5,7 +5,7 @@
 <br /><br /><br /><br />
 <h2 align="center">INF331 - Componentização e Reuso de Software: Conceitos e Práticas</h2>
 
-## :octocat: Aluno
+## :godmode: Aluno
 * Rafael Mardegan Marquini
 
 ## :computer: Laboratórios
