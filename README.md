@@ -1,7 +1,7 @@
-<div style="display: flex; justify-content: space-between;">
-    <img src="img/unicamp.png" width=150px />
-    <span>INF331 - Componentização e Reuso de Software: Conceitos e Práticas</span>
-    <img src="img/ic.png" width=150px />
+<div id="header">
+    <img src="img/unicamp.png" width=75px style="float: left;" />
+    <span style="text-align: center;"><strong>INF331 - Componentização e Reuso de Software: Conceitos e Práticas</strong></span>
+    <img src="img/ic.png" width=250px style="float: right;" />
 </div>
 <br />
 
