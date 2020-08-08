@@ -48,9 +48,15 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 
 ![Gráfico Review vs. Rating apenas das categorias GAME, porém com rating acima de 3000](img/google-playstore-graphic-2.png)
 
-### --- Tarefa 3 ---
+## :pencil2: Projeto de Composição
 
-### --- Tarefa 4 ---
+### --- Tarefa Projeto de Composição para Recomendação ---
+
+![Diagrama Projeto de Composição para Recomendação](img/diagram-1.png)
+
+### --- Tarefa Projeto de Composição de Pedido ---
+
+![Diagrama de Composição de Pedido](img/diagram-2.png)
 
 
 ---
