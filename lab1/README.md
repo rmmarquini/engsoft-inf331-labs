@@ -5,23 +5,23 @@
 
 ## Orange
 
-### Tarefa Foodmart
+## Tarefa Foodmart
 
-#### Imagem do Projeto
+### Imagem do Projeto
 ![Imagem do Projeto de Foodmart](img/foodmart-analysis.png)
 <br />
 
-#### Arquivo do Projeto
+### Arquivo do Projeto
 ![Arquivo do Projeto Orange](foodmart-analysis.ows)
 
-#### Regras de Associação
+### Regras de Associação
 Para utilizar as definições de associções automáticas utilizei no filtro dos dados o parâmetro `beer` com taxa mínima de confiânça em 50%. As telas a seguir mostram os resultados obtidos:
 <br />
 
-![Imagem Tela de associação](foodmart-association-rules.png)
+![Imagem Tela de associação](img/foodmart-association-rules.png)
 <br />
 
-![Imagem Tela de frequência](foodmart-frequent-itemsets.png)
+![Imagem Tela de frequência](img/foodmart-frequent-itemsets.png)
 <br />
 
 
