@@ -6,7 +6,7 @@
 <h2 align="center">INF331 - Componentização e Reuso de Software: Conceitos e Práticas</h2>
 
 ## :godmode: Aluno
-* Rafael Mardegan Marquini
+> Rafael Mardegan Marquini
 
 ## :computer: Laboratórios
 * [Lab1](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab1)
