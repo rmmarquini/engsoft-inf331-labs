@@ -8,7 +8,7 @@
 * Anaconda
 * Python 3.8.3
 * Orange 3
-* Astah UML
+* Draw.io
 
 ## :small_orange_diamond: Orange
 
@@ -31,5 +31,34 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 ![Imagem Tela de frequência](img/foodmart-frequent-itemsets.png)
 <br />
 
+### --- Tarefa Google Playstore ---
 
+### Imagem do Projeto
+![Imagem do Projeto de Foodmart](img/google-playstore-analysis.png)
+<br />
+
+### Arquivo do Projeto
+[Arquivo do Projeto Orange](google-playstore-analysis.ows)
+
+### Gráficos gerados nas análises
+<br />
+![Gráfico Review vs. Rating apenas das categorias GAME_*](img/google-playstore-graphic-1.png)
+<br />
+![Gráfico Review vs. Rating apenas das categorias GAME_*, porém com rating acima de 3000](img/google-playstore-graphic-2.png)
+
+### --- Tarefa 3 ---
+
+### --- Tarefa 4 ---
+
+
+## :mailbox_with_mail: Get in touch!
+<a href="https://www.linkedin.com/in/rafamardegan/" target="_blank" >
+  <img alt="Linkedin - Rafa Mardegan" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+</a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:rafa.mardegan@gmail.com" target="_blank" >
+  <img alt="Email - Rafa Mardegan" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a> 
+
+---
+Made with :coffee: and ❤️ by Rafa Mardegan.
 
