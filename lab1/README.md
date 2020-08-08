@@ -10,7 +10,7 @@
 * Orange 3
 * Astah UML
 
-## :large_orange_diamond: Orange
+## :small_orange_diamond: Orange
 
 ## Tarefa Foodmart
 
