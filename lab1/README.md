@@ -42,9 +42,11 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 
 ### Gráficos gerados nas análises
 <br />
-![Gráfico Review vs. Rating apenas das categorias GAME_*](img/google-playstore-graphic-1.png)
+
+![Gráfico Review vs. Rating apenas das categorias GAME](img/google-playstore-graphic-1.png)
 <br />
-![Gráfico Review vs. Rating apenas das categorias GAME_*, porém com rating acima de 3000](img/google-playstore-graphic-2.png)
+
+![Gráfico Review vs. Rating apenas das categorias GAME, porém com rating acima de 3000](img/google-playstore-graphic-2.png)
 
 ### --- Tarefa 3 ---
 
