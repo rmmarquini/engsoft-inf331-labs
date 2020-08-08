@@ -3,6 +3,13 @@
 ## Aluno
 > Rafael Mardegan Marquini
 
+## :hammer: Ferramentas e Tecnologias
+* Linux Ubuntu 20.04
+* Anaconda
+* Python 3.8.3
+* Orange 3
+* Astah UML
+
 ## Orange
 
 ## Tarefa Foodmart
@@ -12,7 +19,7 @@
 <br />
 
 ### Arquivo do Projeto
-![Arquivo do Projeto Orange](foodmart-analysis.ows)
+[Arquivo do Projeto Orange](foodmart-analysis.ows)
 
 ### Regras de Associação
 Para utilizar as definições de associções automáticas utilizei no filtro dos dados o parâmetro `beer` com taxa mínima de confiânça em 50%. As telas a seguir mostram os resultados obtidos:
