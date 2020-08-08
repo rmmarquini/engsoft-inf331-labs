@@ -53,14 +53,6 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 ### --- Tarefa 4 ---
 
 
-## :mailbox_with_mail: Get in touch!
-<a href="https://www.linkedin.com/in/rafamardegan/" target="_blank" >
-  <img alt="Linkedin - Rafa Mardegan" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>&nbsp;&nbsp;&nbsp;
-<a href="mailto:rafa.mardegan@gmail.com" target="_blank" >
-  <img alt="Email - Rafa Mardegan" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-</a> 
-
 ---
 Made with :coffee: and ❤️ by Rafa Mardegan.
 
