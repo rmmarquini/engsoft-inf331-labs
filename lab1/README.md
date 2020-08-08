@@ -18,10 +18,10 @@
 Para utilizar as definições de associções automáticas utilizei no filtro dos dados o parâmetro `beer` com taxa mínima de confiânça em 50%. As telas a seguir mostram os resultados obtidos:
 <br />
 
-![Tela de associação](foodmart-association-rules.png)
+![Imagem Tela de associação](foodmart-association-rules.png)
 <br />
 
-![Tela de frequência](foodmart-frequent-itemsets.png)
+![Imagem Tela de frequência](foodmart-frequent-itemsets.png)
 <br />
 
 
