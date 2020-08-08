@@ -56,7 +56,7 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 
 ### --- Tarefa Projeto de Composição de Pedido ---
 
-![Diagrama de Composição de Pedido](img/diagram-2.png)
+![Diagrama de Composição e Diagrama de Interface de Pedido](img/diagram-2.png)
 
 ---
 Made with :coffee: and ❤️ by Rafa Mardegan.
