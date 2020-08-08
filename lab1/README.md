@@ -58,7 +58,6 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 
 ![Diagrama de Composição de Pedido](img/diagram-2.png)
 
-
 ---
 Made with :coffee: and ❤️ by Rafa Mardegan.
 
