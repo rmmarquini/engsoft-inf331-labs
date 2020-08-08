@@ -12,7 +12,7 @@
 
 ## :small_orange_diamond: Orange
 
-## Tarefa Foodmart
+### --- Tarefa Foodmart --- 
 
 ### Imagem do Projeto
 ![Imagem do Projeto de Foodmart](img/foodmart-analysis.png)
