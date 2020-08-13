@@ -1,7 +1,7 @@
 # LAB_01 - Data Flow
 
-## Aluno
-> Rafael Mardegan Marquini
+## :arrow_forward: Aluno
+* Rafael Mardegan Marquini
 
 ## :hammer: Ferramentas e Tecnologias
 * Linux Ubuntu 20.04
@@ -59,5 +59,5 @@ Para utilizar as definições de associções automáticas utilizei no filtro do
 ![Diagrama de Composição e Diagrama de Interface de Pedido](img/diagram-2.png)
 
 ---
-Made with :coffee: and ❤️ by Rafa Mardegan.
+Made with :coffee: by Rafa Mardegan.
 
