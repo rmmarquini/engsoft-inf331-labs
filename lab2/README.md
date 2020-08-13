@@ -6,3 +6,12 @@
 * Rafael Mardegan Marquini
 
 ## :hammer: Ferramentas e Tecnologias
+
+## Tarefas
+
+### Catálogo de Componentes
+
+> Arquivo do projeto
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmmarquini/engsoft-inf331-labs/master)
+
