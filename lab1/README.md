@@ -1,12 +1,13 @@
 # LAB_01 - Data Flow
 
+> Informações sobre as atividades exigidas no laboratório neste [LINK](https://github.com/santanche/component2learn/tree/master/labs/01-data-flow).
+
 ## :arrow_forward: Aluno
 * Rafael Mardegan Marquini
 
 ## :hammer: Ferramentas e Tecnologias
 * Linux Ubuntu 20.04
 * Anaconda
-* Python 3.8.3
 * Orange 3
 * Draw.io
 
