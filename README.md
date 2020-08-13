@@ -4,7 +4,7 @@
 </div>
 <br /><br /><br /><br />
 
-<h1 align="center"> INF331 - Componentização e Reuso de Software: Conceitos e Práticas</h1>
+<h1 align="center"> INF331 - Componentização e Reúso de Software: Conceitos e Práticas</h1>
 Este repositório é destinado aos laboratórios da disciplina INF331 do curso de especialização em Engenharia de Software do Instituto de Computação da Unicamp.
 <br /><br />
 
