@@ -7,6 +7,7 @@
 <h1 align="center"> INF331 - Componentização e Reuso de Software: Conceitos e Práticas</h1>
 Este repositório é destinado aos laboratórios da disciplina INF331 do curso de especialização em Engenharia de Software do Instituto de Computação da Unicamp.
 <br />
+
 > Para informações sobre a disciplina consulte o [LINK](https://ic.unicamp.br/wp-content/uploads/2019/10/INF-0331-Componentiza%C3%A7%C3%A3o-e-Reuso-de-Software-Conceitos-e-Pr%C3%A1ticas.pdf).
 
 
