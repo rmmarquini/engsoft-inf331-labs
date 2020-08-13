@@ -6,10 +6,10 @@
 * Rafael Mardegan Marquini
 
 ## :hammer: Ferramentas e Tecnologias
-* Linux Ubuntu 20.04
-* Anaconda
-* Orange 3
-* Draw.io
+* [Ubuntu-20.04](https://ubuntu.com/)
+* [Anaconda](https://www.anaconda.com/)
+* [Orange3](https://orange.biolab.si/)
+* [Draw.io](https://www.draw.io/)
 
 ## :small_orange_diamond: Orange
 
