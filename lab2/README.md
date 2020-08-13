@@ -6,6 +6,8 @@
 * Rafael Mardegan Marquini
 
 ## :hammer: Ferramentas e Tecnologias
+* [JupyterNotebook](https://jupyter.org/)
+* [Java 8](https://developers.redhat.com/products/openjdk/download)
 
 ## Tarefas
 
