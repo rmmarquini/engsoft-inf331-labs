@@ -3,28 +3,26 @@
     <img src="img/ic.png" width=250px align="right" />
 </div>
 <br /><br /><br /><br />
-<h2 align="center">INF331 - Componentização e Reuso de Software: Conceitos e Práticas</h2>
 
-## :godmode: Aluno
-> Rafael Mardegan Marquini
+# INF331 - Componentização e Reuso de Software: Conceitos e Práticas
+Este repositório é destinado aos laboratórios da disciplina INF331 do curso de especialização em Engenharia de Software do Instituto de Computação da Unicamp.
+
+> Para informações sobre a disciplina consulte o [LINK](https://ic.unicamp.br/wp-content/uploads/2019/10/INF-0331-Componentiza%C3%A7%C3%A3o-e-Reuso-de-Software-Conceitos-e-Pr%C3%A1ticas.pdf).
+
+
+## :arrow_forward: Aluno
+* Rafael Mardegan Marquini
+* Equipe 9
 
 ## :computer: Laboratórios
 * [Lab1](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab1)
 * [Lab2](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab2)
 
-## :memo: License
-This project is under the MIT license.
-
-## :mailbox_with_mail: Get in touch!
-<a href="https://www.linkedin.com/in/rafamardegan/" target="_blank" >
-  <img alt="Linkedin - Rafa Mardegan" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>&nbsp;&nbsp;&nbsp;
-<a href="mailto:rafa.mardegan@gmail.com" target="_blank" >
-  <img alt="Email - Rafa Mardegan" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-</a> 
+## :memo: Licença
+MIT license.
 
 ---
-Made with :coffee: and ❤️ by Rafa Mardegan.
+Made with :coffee: by Rafa Mardegan.
 
 
 
