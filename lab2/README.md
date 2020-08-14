@@ -22,13 +22,53 @@ A entrega desta atividade compreende na resolução de 6 exercícios apresentado
 
 ### :construction: Componentes e Mensagens
 
-Esse lab será voltado a componentes na Web usando a implementação do Digital Content Component (DCC). Utilizei o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/) para concluir as atividades abaixo.
+Esse lab é voltado à componentes na Web usando a implementação do Digital Content Component (DCC). Utilizei o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/) para concluir as atividades abaixo.
 
 #### Tarefa Web Components 1
 
 ```
-meu código
+<dcc-trigger label="Mundo"
+             action="noticia/mundo/politica"
+             value="Nova notícia mundo política">
+</dcc-trigger>
+
+<dcc-trigger label="Brasil P."
+             action="noticia/brasil/politica"
+             value="Nova notícia Brasil política">
+</dcc-trigger>
+
+<dcc-trigger label="Brasil E."
+             action="noticia/brasil/esporte"
+             value="Nova notícia Brasil esporte">
+</dcc-trigger>
+
+<dcc-trigger label="Bahia"
+             action="noticia/bahia/esporte"
+             value="Nova notícia Bahia esporte">
+</dcc-trigger>
+
+<dcc-lively-talk duration="0s"
+                 character="doctor"
+                 speech="I heard about a ">
+  <subscribe-dcc topic="noticia/#/politica"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk duration="0s"
+                 character="nurse"
+                 speech="I heard about a ">
+  <subscribe-dcc topic="noticia/brasil/#"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk duration="0s"
+                 character="patient"
+                 speech="I heard about a ">
+  <subscribe-dcc topic="noticia/#/#"></subscribe-dcc>
+</dcc-lively-talk>
 ```
+
+<strong>Resultado</strong>
+
+![components-tarefa1](img/lab2-components-tarefa1.gif)
 
 #### Tarefa Web Components 2
 
