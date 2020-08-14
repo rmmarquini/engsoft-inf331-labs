@@ -42,7 +42,71 @@ console.connect(projection);
 console.update();
 ```
 
+* <strong>Resultados</strong>
+
+```
+=== Attributes ===
+name, age
+
+=== Instances ===
+Rot Donnadd, 43
+Pid Mught, 38
+Thulk Lebbimp, 63
+Bouvossam Damme, 71
+Pirg Zall, 48
+Nullon Rackindock, 23
+Shor Splitturch, 35
+Ger Ackeng, 66
+Gleldo Shruck, 45
+Nadross Pilch, 60
+Sadrent Pemmir, 73
+Read Rait, 55
+Dallun Whadder, 15
+Eapplar Thorg, 25
+Blottork Patter, 68
+Darrutt Bottall, 75
+Gallir Shauch, 20
+Dirpe Polnay, 39
+Harrimp Fottiem, 65
+```
+
 ### Tarefa 2
+
+```
+import pt.c08componentes.s20catalog.s10ds.*;
+import pt.c08componentes.s20catalog.s20console.*;
+import pt.c08componentes.s20catalog.s40selection.*;
+
+IDataSet dataset = new DataSetComponent();
+dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+ISelection selection = new SelectionComponent();
+selection.connect(dataset);
+selection.setAttribute("diagnostic");
+selection.setOperator("=");
+selection.setValue("bacterial_infection");
+
+IConsole console = new ConsoleComponent();
+console.connect(selection);
+
+console.update();
+```
+
+* <strong>Resultados</strong>
+
+```
+=== Attributes ===
+name, age, paralysis, yellow_tong, member_loss, chest_pain, trembling_finger, severe_anger, history_bacteria, diagnostic, days_recovery, has_disease
+
+=== Instances ===
+Rot Donnadd, 43, t, t, f, f, f, f, f, bacterial_infection, 9, t
+Pid Mught, 38, f, t, f, f, f, f, f, bacterial_infection, 7, t
+Gleldo Shruck, 45, f, t, f, t, f, f, f, bacterial_infection, 8, t
+Read Rait, 55, t, t, f, f, f, f, f, bacterial_infection, 9, t
+Dirpe Polnay, 39, f, t, f, f, f, f, f, bacterial_infection, 7, t
+```
+
+### Tarefa 3
 
 ---
 Made with :coffee: by Rafa Mardegan.
