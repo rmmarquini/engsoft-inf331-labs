@@ -11,9 +11,9 @@
 
 ---
 
-# :pencil: Tarefas
+## :pencil: Tarefas
 
-## :heavy_check_mark: Data Flow e Componentes (parte 2)
+### :heavy_check_mark: Data Flow e Componentes (parte 2)
 
 A entrega desta atividade compreende na resolução de 6 exercícios apresentados no notebook a seguir:
 [components-01-catalog.ipynb](https://github.com/rmmarquini/engsoft-inf331-labs/blob/master/lab2/notebook/data-flow/s02catalog/components-01-catalog.ipynb); que apresenta o catálogo de componentes, o modo de conectá-los (visto pela perspectiva blackbox - externa) para montar uma composição.
@@ -24,7 +24,7 @@ A entrega desta atividade compreende na resolução de 6 exercícios apresentado
 
 ---
 
-## :construction: Componentes e Mensagens
+### :construction: Componentes e Mensagens
 
 * Em construção
 
