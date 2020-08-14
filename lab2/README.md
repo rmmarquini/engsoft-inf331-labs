@@ -66,15 +66,49 @@ Esse lab é voltado à componentes na Web usando a implementação do Digital Co
 </dcc-lively-talk>
 ```
 
-<strong>Resultado</strong>
-
 ![components-tarefa1](img/lab2-components-tarefa1.gif)
 
 #### Tarefa Web Components 2
 
 ```
-meu código
+<dcc-trigger label="Next Item" action="next/rss">
+</dcc-trigger>
+
+<dcc-rss publish="rss/science" source="https://www.wired.com/category/science/feed">
+  <subscribe-dcc topic="next/rss" role="step"></subscribe-dcc>
+</dcc-rss>
+
+<dcc-aggregator publish="aggregate/science" quantity="3">
+  <subscribe-dcc topic="rss/science"></subscribe-dcc>
+</dcc-aggregator>
+
+<dcc-rss publish="rss/design" source="https://www.wired.com/category/design/feed">
+  <subscribe-dcc topic="next/rss" role="step"></subscribe-dcc>
+</dcc-rss>
+
+<dcc-lively-talk id="nurse"
+                 duration="0s"
+                 character="nurse"
+                 speech="News ">
+  <subscribe-dcc topic="rss/science"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk id="nurse"
+                 duration="0s"
+                 character="doctor"
+                 speech="News ">
+  <subscribe-dcc topic="aggregate/science"></subscribe-dcc>
+</dcc-lively-talk>
+
+<dcc-lively-talk id="patient"
+                 duration="0s"
+                 character="patient"
+                 speech="News ">
+  <subscribe-dcc topic="rss/design"></subscribe-dcc>
+</dcc-lively-talk>
 ```
+
+![components-tarefa1](img/lab2-components-tarefa2.gif)
 
 ---
 Made with :coffee: by Rafa Mardegan.
