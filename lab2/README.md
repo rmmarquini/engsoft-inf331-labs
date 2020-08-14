@@ -20,7 +20,7 @@ A entrega desta atividade compreende na resolução de 6 exercícios apresentado
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmmarquini/engsoft-inf331-labs/master)
 
-### :construction: Componentes e Mensagens
+### :heavy_check_mark: Componentes e Mensagens
 
 Esse lab é voltado à componentes na Web usando a implementação do Digital Content Component (DCC). Utilizei o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/) para concluir as atividades abaixo.
 
