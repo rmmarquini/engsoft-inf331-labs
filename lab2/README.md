@@ -130,22 +130,35 @@ import pt.c08componentes.s20catalog.s20console.*;
 import pt.c08componentes.s20catalog.s40selection.*;
 import pt.c08componentes.s20catalog.s30projection.*;
 
+// CRIANDO O COMPONENTE DataSetComponent ATRIBUINDO-O NA INTERFACE IDataSet
 IDataSet dataset = new DataSetComponent();
+// DEFININDO O SOURCE DOS DADOS
 dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
 
-IProjection projection = new ProjectionComponent();
-projection.connect(dataset);
-projection.setAttributes(new String[]{"name", "age"});
-
+// CRIANDO O COMPONENTE SelectionComponent ATRIBUINDO-O NA INTERFACE ISelection
 ISelection selection = new SelectionComponent();
+// CONECTANDO OS COMPONENTES DEFINIDOS NOS OBJETOS selection e dataset
 selection.connect(dataset);
+// DEFININDO OS PARAMETROS DE SELECAO
 selection.setAttribute("diagnostic");
 selection.setOperator("=");
 selection.setValue("bacterial_infection");
 
-IConsole console = new ConsoleComponent();
-console.connect(selection);
+// CRIANDO O COMPONENTE ProjectionComponent ATRIBUINDO-O NA INTERFACE IProjection
+IProjection projection = new ProjectionComponent();
+// COMO OS PARAMETROS DE SELECAO FORAM DEFINIDOS NO COMPONENTE ANTERIOR
+// E TAMBEM, O SelectionComponent ESTA CONECTADO AO DataSetComponent
+// POSSO CONECTAR O ProjectionComponent AO SelectionComponent
+projection.connect(selection);
+// DEFINIR OS ATRIBUTOS QUE DESEJO EXIBIR
+projection.setAttributes(new String[]{"name", "age"});
 
+// CRIAR O COMPONENTE DO CONSOLE ATRIBUINDO-O NA INTERFACE IConsole
+IConsole console = new ConsoleComponent();
+// PARA ENTAO CONECTAR O ConsoleComponent AO ProjectionComponent 
+console.connect(projection);
+
+// E FINALMENTE DISPARAR A REQUEST PARA RECUPERAR OS DADOS REQUISITADOS
 console.update();
 ```
 
@@ -153,16 +166,54 @@ console.update();
 
 ```
 === Attributes ===
-name, age, paralysis, yellow_tong, member_loss, chest_pain, trembling_finger, severe_anger, history_bacteria, diagnostic, days_recovery, has_disease
+name, age
 
 === Instances ===
-Rot Donnadd, 43, t, t, f, f, f, f, f, bacterial_infection, 9, t
-Pid Mught, 38, f, t, f, f, f, f, f, bacterial_infection, 7, t
-Gleldo Shruck, 45, f, t, f, t, f, f, f, bacterial_infection, 8, t
-Read Rait, 55, t, t, f, f, f, f, f, bacterial_infection, 9, t
-Dirpe Polnay, 39, f, t, f, f, f, f, f, bacterial_infection, 7, t
+Rot Donnadd, 43
+Pid Mught, 38
+Gleldo Shruck, 45
+Read Rait, 55
+Dirpe Polnay, 39
+
 ```
 
+### Tarefa 4
+
+```
+import pt.c08componentes.s20catalog.s10ds.*;
+import pt.c08componentes.s20catalog.s30projection.*;
+import pt.c08componentes.s20catalog.s50chart.IChart;
+
+// CRIANDO O COMPONENTE DataSetComponent ATRIBUINDO-O NA INTERFACE IDataSet
+IDataSet dataset = new DataSetComponent();
+// DEFININDO O SOURCE DOS DADOS
+dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+// CRIANDO O COMPONENTE ProjectionComponent
+IProjection projection = new ProjectionComponent();
+// CONECTANDO O ProjectionComponent AO DataSetComponent
+projection.connect(dataset);
+// DEFININDO AS INSTANCIAS QUE SERAO UTILIZADAS PARA GERAR O GRAFICO
+projection.setAttributes(new String[]{"days_recovery", "age"});
+
+// INSTANCIA O COMPONENTE ChartBubbleComponent
+IChart chart = new ChartBubbleComponent();
+// CONECTA-O AO ProjectionComponent
+chart.connect(projection);
+// DEFINE OS EIXOS DO GRAFICO
+chart.setTitle("Zombie Health");
+chart.setXTitle("Days Recovery");
+chart.setYTitle("Age");
+
+// GERANDO A SAIDA DO GRAFICO FAZENDO REQUEST NOS DADOS RETORNADOS NO ProjectionComponent
+chart.start();
+```
+
+* <strong>Resultados</strong>
+
+![Zombie Health](img/lab2-tarefa4.png)
+
+### Tarefa 5
 
 ---
 Made with :coffee: by Rafa Mardegan.
