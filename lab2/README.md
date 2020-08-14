@@ -9,8 +9,6 @@
 * [JupyterNotebook](https://jupyter.org/)
 * [Java 8](https://developers.redhat.com/products/openjdk/download)
 
----
-
 ## :pencil: Tarefas
 
 ### :heavy_check_mark: Data Flow e Componentes (parte 2)
@@ -21,8 +19,6 @@ A entrega desta atividade compreende na resolução de 6 exercícios apresentado
 > Instância do Binder com o notebook contendo os exercícios resolvidos
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmmarquini/engsoft-inf331-labs/master)
-
----
 
 ### :construction: Componentes e Mensagens
 
