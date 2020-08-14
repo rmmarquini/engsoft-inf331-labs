@@ -29,16 +29,24 @@ import pt.c08componentes.s20catalog.s10ds.*;
 import pt.c08componentes.s20catalog.s20console.*;
 import pt.c08componentes.s20catalog.s30projection.*;
 
+// CRIANDO O COMPONENTE DataSetComponent ATRIBUINDO-O NA INTERFACE IDataSet
 IDataSet dataset = new DataSetComponent();
+// DEFININDO O SOURCE DOS DADOS
 dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
 
+// CRIANDO O COMPONENTE ProjectionComponent ATRIBUINDO-O NA INTERFACE IProjection
 IProjection projection = new ProjectionComponent();
+// CONECTANDO OS COMPONENTES DEFINIDOS NOS OBJETOS projection e dataset
 projection.connect(dataset);
+// DEFININDO AS INSTANCIAS
 projection.setAttributes(new String[]{"name", "age"});
 
+// CRIANDO O COMPONENTE ConsoleComponent ATRIBUINDO-O NA INTERFACE IConsole
 IConsole console = new ConsoleComponent();
+// CONECTANDO OS COMPONENTES console E projection, PARA GUARDAR A REFERENCIA
 console.connect(projection);
 
+// DISPARA O REQUEST PARA RECUPERAR OS DADOS REQUISITADOS
 console.update();
 ```
 
@@ -77,8 +85,57 @@ import pt.c08componentes.s20catalog.s10ds.*;
 import pt.c08componentes.s20catalog.s20console.*;
 import pt.c08componentes.s20catalog.s40selection.*;
 
+// CRIANDO O COMPONENTE DataSetComponent ATRIBUINDO-O NA INTERFACE IDataSet
+IDataSet dataset = new DataSetComponent();
+// DEFININDO O SOURCE DOS DADOS
+dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+// CRIANDO O COMPONENTE SelectionComponent ATRIBUINDO-O NA INTERFACE ISelection
+ISelection selection = new SelectionComponent();
+// CONECTANDO OS COMPONENTES DEFINIDOS NOS OBJETOS selection e dataset
+selection.connect(dataset);
+// DEFININDO OS PARAMETROS DE SELECAO
+selection.setAttribute("diagnostic");
+selection.setOperator("=");
+selection.setValue("bacterial_infection");
+
+// CRIANDO O COMPONENTE ConsoleComponent ATRIBUINDO-O NA INTERFACE IConsole
+IConsole console = new ConsoleComponent();
+// CONECTANDO OS COMPONENTES console E selection, PARA GUARDAR A REFERENCIA
+console.connect(selection);
+
+// DISPARA O REQUEST PARA RECUPERAR OS DADOS REQUISITADOS
+console.update();
+```
+
+* <strong>Resultados</strong>
+
+```
+=== Attributes ===
+name, age, paralysis, yellow_tong, member_loss, chest_pain, trembling_finger, severe_anger, history_bacteria, diagnostic, days_recovery, has_disease
+
+=== Instances ===
+Rot Donnadd, 43, t, t, f, f, f, f, f, bacterial_infection, 9, t
+Pid Mught, 38, f, t, f, f, f, f, f, bacterial_infection, 7, t
+Gleldo Shruck, 45, f, t, f, t, f, f, f, bacterial_infection, 8, t
+Read Rait, 55, t, t, f, f, f, f, f, bacterial_infection, 9, t
+Dirpe Polnay, 39, f, t, f, f, f, f, f, bacterial_infection, 7, t
+```
+
+### Tarefa 3
+
+```
+import pt.c08componentes.s20catalog.s10ds.*;
+import pt.c08componentes.s20catalog.s20console.*;
+import pt.c08componentes.s20catalog.s40selection.*;
+import pt.c08componentes.s20catalog.s30projection.*;
+
 IDataSet dataset = new DataSetComponent();
 dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+IProjection projection = new ProjectionComponent();
+projection.connect(dataset);
+projection.setAttributes(new String[]{"name", "age"});
 
 ISelection selection = new SelectionComponent();
 selection.connect(dataset);
@@ -106,7 +163,6 @@ Read Rait, 55, t, t, f, f, f, f, f, bacterial_infection, 9, t
 Dirpe Polnay, 39, f, t, f, f, f, f, f, bacterial_infection, 7, t
 ```
 
-### Tarefa 3
 
 ---
 Made with :coffee: by Rafa Mardegan.
