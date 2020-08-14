@@ -15,12 +15,33 @@
 
 ## Catálogo de Componentes
 
-A entrega desta tarefa compreende na resolução de 6 exercícios apresentados no notebook a seguir:
-[components-01-catalog.ipynb](https://github.com/rmmarquini/engsoft-inf331-labs/blob/master/lab2/notebook/data-flow/s02catalog/components-01-catalog.ipynb)
+A entrega desta atividade compreende na resolução de 6 exercícios apresentados no notebook a seguir:
+[components-01-catalog.ipynb](https://github.com/rmmarquini/engsoft-inf331-labs/blob/master/lab2/notebook/data-flow/s02catalog/components-01-catalog.ipynb); que apresenta o catálogo de componentes, o modo de conectá-los (visto pela perspectiva blackbox - externa) para montar uma composição.
 
-> Arquivo do projeto
+> Instância do Binder com o notebook contendo os exercícios resolvidos
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmmarquini/engsoft-inf331-labs/master)
+
+### Tarefa 1
+`
+import pt.c08componentes.s20catalog.s10ds.*;
+import pt.c08componentes.s20catalog.s20console.*;
+import pt.c08componentes.s20catalog.s30projection.*;
+
+IDataSet dataset = new DataSetComponent();
+dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+IProjection projection = new ProjectionComponent();
+projection.connect(dataset);
+projection.setAttributes(new String[]{"name", "age"});
+
+IConsole console = new ConsoleComponent();
+console.connect(projection);
+
+console.update();
+`
+
+### Tarefa 2
 
 ---
 Made with :coffee: by Rafa Mardegan.
