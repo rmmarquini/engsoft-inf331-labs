@@ -6,7 +6,7 @@
 * Rafael Mardegan Marquini
 
 ## :hammer: Ferramentas e Tecnologias
-* [JupyterNotebook](https://jupyter.org/)
+* [Jupyter Notebook](https://jupyter.org/)
 * [Java 8](https://developers.redhat.com/products/openjdk/download)
 
 ## :pencil: Tarefas
@@ -22,7 +22,19 @@ A entrega desta atividade compreende na resolução de 6 exercícios apresentado
 
 ### :construction: Componentes e Mensagens
 
-* Em construção
+Esse lab será voltado a componentes na Web usando a implementação do Digital Content Component (DCC). Utilizei o ambiente [DCC Playground](https://santanche.github.io/component2learn/labs/02-data-flow_messages/notebooks/messages/dccs/playground/) para concluir as atividades abaixo.
+
+#### Tarefa Web Components 1
+
+```
+meu código
+```
+
+#### Tarefa Web Components 2
+
+```
+meu código
+```
 
 ---
 Made with :coffee: by Rafa Mardegan.
