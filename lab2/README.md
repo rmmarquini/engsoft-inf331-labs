@@ -23,7 +23,8 @@ A entrega desta atividade compreende na resolução de 6 exercícios apresentado
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rmmarquini/engsoft-inf331-labs/master)
 
 ### Tarefa 1
-`
+
+```
 import pt.c08componentes.s20catalog.s10ds.*;
 import pt.c08componentes.s20catalog.s20console.*;
 import pt.c08componentes.s20catalog.s30projection.*;
@@ -39,7 +40,7 @@ IConsole console = new ConsoleComponent();
 console.connect(projection);
 
 console.update();
-`
+```
 
 ### Tarefa 2
 
