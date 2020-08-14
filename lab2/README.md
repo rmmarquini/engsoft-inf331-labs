@@ -215,5 +215,88 @@ chart.start();
 
 ### Tarefa 5
 
+```
+import pt.c08componentes.s20catalog.s10ds.*;
+import pt.c08componentes.s20catalog.s30projection.*;
+import pt.c08componentes.s20catalog.s50chart.IChart;
+
+// CRIANDO O COMPONENTE DataSetComponent ATRIBUINDO-O NA INTERFACE IDataSet
+IDataSet dataset = new DataSetComponent();
+// DEFININDO O SOURCE DOS DADOS
+dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+// CRIANDO O COMPONENTE ProjectionComponent
+IProjection projection = new ProjectionComponent();
+// CONECTANDO O ProjectionComponent AO DataSetComponent
+projection.connect(dataset);
+// DEFININDO AS INSTANCIAS QUE SERAO UTILIZADAS PARA GERAR O GRAFICO
+// ADICIONANDO MAIS UMA COLUNA, SERA POSSIVEL DISTINGUIR EM CORES COM BASE NO DIAGNOSTICO
+projection.setAttributes(new String[]{"days_recovery", "age", "diagnostic"});
+
+// INSTANCIA O COMPONENTE ChartBubbleComponent
+IChart chart = new ChartBubbleComponent();
+// CONECTA-O AO ProjectionComponent
+chart.connect(projection);
+// DEFINE OS EIXOS DO GRAFICO
+chart.setTitle("Zombie Health");
+chart.setXTitle("Days Recovery");
+chart.setYTitle("Age");
+
+// GERANDO A SAIDA DO GRAFICO FAZENDO REQUEST NOS DADOS RETORNADOS NO ProjectionComponent
+chart.start();
+```
+
+* <strong>Resultados</strong>
+
+![Zombie Health](img/lab2-tarefa5.png)
+
+### Tarefa 6
+
+```
+// CRIANDO O COMPONENTE DataSetComponent ATRIBUINDO-O NA INTERFACE IDataSet
+IDataSet dataset = new DataSetComponent();
+// DEFININDO O SOURCE DOS DADOS
+dataset.setDataSource("../../../db/zombie/zombie-health-spreadsheet.csv");
+
+// CRIANDO O COMPONENTE SelectionComponent ATRIBUINDO-O NA INTERFACE ISelection
+ISelection selection = new SelectionComponent();
+// CONECTANDO OS COMPONENTES DEFINIDOS NOS OBJETOS selection e dataset
+selection.connect(dataset);
+// DEFININDO OS PARAMETROS DE SELECAO
+selection.setAttribute("diagnostic");
+selection.setOperator("=");
+selection.setValue("bacterial_infection");
+
+// CRIANDO O COMPONENTE ProjectionComponent
+IProjection projection = new ProjectionComponent();
+// CONECTANDO O ProjectionComponent AO SelectionComponent
+// POIS, QUERO QUE MEU GRAFICO SEJA APENAS UM COMPARATIVO 
+// ENTRE days_recovery E age QDO O diagnostic = bacterial_infection
+projection.connect(selection);
+// DEFININDO AS INSTANCIAS QUE SERAO UTILIZADAS PARA GERAR O GRAFICO
+// ADICIONANDO MAIS UMA COLUNA, SERA POSSIVEL DISTINGUIR EM CORES COM BASE NO DIAGNOSTICO
+projection.setAttributes(new String[]{"days_recovery", "age"});
+
+// INSTANCIA O COMPONENTE ChartBubbleComponent
+IChart chart = new ChartBubbleComponent();
+// CONECTA-O AO ProjectionComponent
+chart.connect(projection);
+// DEFINE OS EIXOS DO GRAFICO
+chart.setTitle("Zombie Health");
+chart.setXTitle("Days Recovery");
+chart.setYTitle("Age");
+
+// GERANDO A SAIDA DO GRAFICO FAZENDO REQUEST NOS DADOS RETORNADOS NO ProjectionComponent
+chart.start();
+```
+
+* <strong>Resultados</strong>
+
+![Zombie Health](img/lab2-tarefa6.png)
+
+---
+
+
+
 ---
 Made with :coffee: by Rafa Mardegan.
