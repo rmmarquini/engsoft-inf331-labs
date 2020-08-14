@@ -5,7 +5,7 @@
 <br /><br /><br /><br />
 
 <h1 align="center"> INF331 - Componentização e Reúso de Software: Conceitos e Práticas</h1>
-<p align="center"><em>Prof. André Santanchè</em></p>
+<p align="center"><em><a href="https://github.com/santanche" target="_blank">Prof. André Santanchè</a></em></p>
 Este repositório é destinado aos laboratórios da disciplina INF331 do curso de especialização em Engenharia de Software do Instituto de Computação da Unicamp.
 <br /><br />
 
