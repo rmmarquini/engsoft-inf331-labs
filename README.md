@@ -19,6 +19,7 @@ Este repositório é destinado aos laboratórios da disciplina INF331 do curso d
 ## :computer: Laboratórios
 * [Lab1](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab1)
 * [Lab2](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab2)
+* [Lab3](https://github.com/rmmarquini/engsoft-inf331-labs/tree/master/lab3)
 
 ## :memo: Licença
 MIT license.
