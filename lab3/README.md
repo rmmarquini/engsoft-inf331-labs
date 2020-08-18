@@ -7,7 +7,7 @@
 
 ## :hammer: Ferramentas e Tecnologias
 * [UML](https://www.uml.org/)
-* [Drawio](htts://www.draw.io/)
+* [Drawio](https://app.diagrams.net/)
 
 ## :pencil: Tarefas
 
