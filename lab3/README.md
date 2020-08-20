@@ -18,7 +18,7 @@
 
 
 ### :heavy_check_mark: Tarefa 2
-> Usando a representação de componentes que se comunicam por mensagens na forma de uma orquestração, elabore um diagrama contendo os componentes (Blackbox) e as respectivas interfaces de eventos para realizar um leilão virtual invertido de produtos, conforme a seguinte sequência: <br />1. O cliente seleciona o produto; <br />2. Um módulo de leilão informa a todos os potenciais fornecedores daquele produto sobre a demanda e inicia um leilão; <br />3. Os potenciais fornecedores fazem ofertas; <br />4. Os três produtos com menor preço são apresentados para o cliente - em caso de empate de preço, considerar quem fez primeiro a oferta.
+> Usando a representação de componentes que se comunicam por mensagens na forma de uma orquestração, elabore um diagrama contendo os componentes (Blackbox) e as respectivas interfaces de eventos para realizar um leilão virtual invertido de produtos, conforme a seguinte sequência: <br />    1. O cliente seleciona o produto; <br />    2. Um módulo de leilão informa a todos os potenciais fornecedores daquele produto sobre a demanda e inicia um leilão; <br />    3. Os potenciais fornecedores fazem ofertas; <br />    4. Os três produtos com menor preço são apresentados para o cliente - em caso de empate de preço, considerar quem fez primeiro a oferta.
 
 ![Leilão virtual invertido de produtos](img/tarefa2.png)
 
