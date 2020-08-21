@@ -8,6 +8,8 @@
 ## :hammer: Ferramentas e Tecnologias
 * [UML](https://www.uml.org/)
 * [Drawio](https://app.diagrams.net/)
+* [Android Studio AVD](https://developer.android.com/studio/run/managing-avds?hl=pt-br)
+* [MIT App Inventor](https://appinventor.mit.edu/)
 
 ## :pencil: Tarefas
 
@@ -23,6 +25,31 @@
 ![Leilão virtual invertido de produtos](img/tarefa2.png)
 
 ### :heavy_check_mark: Tarefa 3
+> Elabore um protótipo de uma interface gráfica com um usuário no MIT App Inventor que simule uma interface de compra. 
+
+[Projeto .aia para ser restaurado no MIT App Inventor](tarefa3.aia)
+
+#### Resultados
+
+* Tela 1: Nenhum produto selecionado
+
+![Tela 1](img/tarefa3-1.png)
+
+* Tela 2: Primeiro produto selecionado
+
+![Tela 2](img/tarefa3-2.png)
+
+* Tela 3: segundo produto selecionado
+
+![Tela 3](img/tarefa3-3.png)
+
+* Tela 4: Compra de um dos produtos efetiva
+
+![Tela 5a](img/tarefa3-5a.png) ![Tela 5b](img/tarefa3-5b.png)
+
+* Tela 5: Diagrama de blocos
+
+![Tela 3](img/tarefa3-6.png)
 
 
 ---
