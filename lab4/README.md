@@ -41,11 +41,11 @@
 * Descrição:
 * Cabeçalho HTTP da requisição:
 
-![](img/tarefa4_1a.png)
+![header_http_req_1](img/tarefa4_1a.png)
 
 * Cabeçalho e conteúdo JSON da resposta:
 
-![](img/tarefa4_1b.png)
+![header_http_res_1](img/tarefa4_1b.png)
 
 #### Serviço 2: 
 
@@ -54,11 +54,11 @@
 * Descrição:
 * Cabeçalho HTTP da requisição:
 
-![](img/tarefa4_2a.png)
+![header_http_req_2](img/tarefa4_2a.png)
 
 * Cabeçalho e conteúdo JSON da resposta:
 
-![](img/tarefa4_2b.png)
+![header_http_res_2](img/tarefa4_2b.png)
 
 
 ---
