@@ -6,31 +6,59 @@
 * Rafael Mardegan Marquini
 
 ## :hammer: Conceitos, Ferramentas e Tecnologias
+* Componentização
+* Design Pattern: MVC
 * [UML](https://www.uml.org/)
-
+* RESTful API
+* JSON
+* [Insomnia](https://insomnia.rest/)
 
 ## :pencil: Tarefas
 
-### :heavy_check_mark: Tarefa 1
-> 
+### :heavy_check_mark: Tarefa 1: Componentes de Negócio
+> Delimitar partes do diagrama que deveriam estar dentro de um componente.
 
-![](img/tarefa1.png)
+![Tarefa 1: Componentes de Negócio](img/tarefa1.png)
 
 
-### :heavy_check_mark: Tarefa 2
-> 
+### :heavy_check_mark: Tarefa 2: Componentes Técnicos
+> Separar os componentes de View daqueles definidos no Controller
 
-![](img/tarefa2.png)
+![Tarefa 2: Componentes Técnicos](img/tarefa2.png)
 
-### :heavy_check_mark: Tarefa 3
->  
+### :heavy_check_mark: Tarefa 3: Componentes Técnicos
+>  eparar os componentes do Model daqueles definidos no Controller
 
-[](img/tarefa3.png)
+[Tarefa 3: Componentes Técnicos](img/tarefa3.png)
 
 ### :heavy_check_mark: Tarefa 4
->  
+>  Encontre dois serviços REST interessantes, que recebam no mínimo dois parâmetros e execute pelo menos uma consulta em cada um deles. Apresente para cada serviço que você escolheu:
 
-[](img/tarefa4.png)
+#### Serviço 1: 
+
+* Título:
+* URI:
+* Descrição:
+* Cabeçalho HTTP da requisição:
+
+[](img/tarefa4_1a.png)
+
+* Cabeçalho e conteúdo JSON da resposta:
+
+[](img/tarefa4_1b.png)
+
+#### Serviço 2: 
+
+* Título:
+* URI:
+* Descrição:
+* Cabeçalho HTTP da requisição:
+
+[](img/tarefa4_2a.png)
+
+* Cabeçalho e conteúdo JSON da resposta:
+
+[](img/tarefa4_2b.png)
 
 
 ---
