@@ -29,7 +29,7 @@
 ### :heavy_check_mark: Tarefa 3: Componentes Técnicos
 >  eparar os componentes do Model daqueles definidos no Controller
 
-[Tarefa 3: Componentes Técnicos](img/tarefa3.png)
+![Tarefa 3: Componentes Técnicos](img/tarefa3.png)
 
 ### :heavy_check_mark: Tarefa 4
 >  Encontre dois serviços REST interessantes, que recebam no mínimo dois parâmetros e execute pelo menos uma consulta em cada um deles. Apresente para cada serviço que você escolheu:
@@ -41,11 +41,11 @@
 * Descrição:
 * Cabeçalho HTTP da requisição:
 
-[](img/tarefa4_1a.png)
+![](img/tarefa4_1a.png)
 
 * Cabeçalho e conteúdo JSON da resposta:
 
-[](img/tarefa4_1b.png)
+![](img/tarefa4_1b.png)
 
 #### Serviço 2: 
 
@@ -54,11 +54,11 @@
 * Descrição:
 * Cabeçalho HTTP da requisição:
 
-[](img/tarefa4_2a.png)
+![](img/tarefa4_2a.png)
 
 * Cabeçalho e conteúdo JSON da resposta:
 
-[](img/tarefa4_2b.png)
+![](img/tarefa4_2b.png)
 
 
 ---
