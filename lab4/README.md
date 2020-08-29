@@ -36,12 +36,13 @@
 
 #### Serviço 1: 
 
-* Título: Dólar comercial (venda e compra) - cotações diárias
-* URI: `https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda=%27USD%27&@dataCotacao=%2708-28-2020%27&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao`
-* Descrição: Endpoint do Banco Central do Brasil para consulta de cotação do dólar na data informada (padrão MM-dd-yyyy), coletando o registro "top=1" e ordenado pela data e hora da última cotação de forma descendente. Na URI, é informado o tipo do formato JSON e solicito a seleção apenas dos atributos que me interessam: "cotacaoCompra", "contacaoVenda", "dataHoraCotacao".
-* Cabeçalho HTTP da requisição:
+* **Título:** Dólar comercial (venda e compra) - cotações diárias
+* **URI:**
+```https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda=%27USD%27&@dataCotacao=%2708-28-2020%27&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao```
+* **Descrição:** Endpoint do Banco Central do Brasil para consulta de cotação do dólar na data informada (padrão MM-dd-yyyy), coletando o registro "top=1" e ordenado pela data e hora da última cotação de forma descendente. Na URI, é informado o tipo do formato JSON e solicito a seleção apenas dos atributos que me interessam: "cotacaoCompra", "contacaoVenda", "dataHoraCotacao".
+* **Cabeçalho HTTP da requisição:**
 
-~~~
+~~~http
 GET /olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda=%27USD%27&@dataCotacao=%2708-28-2020%27&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao HTTP/1.1
 Host: olinda.bcb.gov.br
 User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
@@ -54,9 +55,9 @@ Upgrade-Insecure-Requests: 1
 Cache-Control: max-age=0
 ~~~
 
-* Cabeçalho da resposta:
+* **Cabeçalho da resposta:**
 
-~~~
+~~~http
 HTTP/1.1 200 OK
 Date: Sat, 29 Aug 2020 00:21:52 GMT
 X-Powered-By: Servlet/3.0
@@ -73,9 +74,9 @@ Content-Type: application/json;charset=UTF-8;odata.metadata=minimal
 Content-Language: en-US
 ~~~
 
-* Conteúdo da respostas (JSON)
+* **Conteúdo da respostas (JSON)**
 
-~~~
+~~~json
 {
     "@odata.context": "https://was-p.bcnet.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata$metadata#_CotacaoMoedaDia(cotacaoCompra,cotacaoVenda,dataHoraCotacao)",
     "value": [
@@ -92,16 +93,16 @@ Content-Language: en-US
 
 #### Serviço 2: 
 
-* Título:
-* URI:
-* Descrição:
-* Cabeçalho HTTP da requisição:
+* **Título:**
+* **URI:**
+* **Descrição:**
+* **Cabeçalho HTTP da requisição:**
 
 
-* Cabeçalho da resposta:
+* **Cabeçalho da resposta:**
 
 
-* Conteúdo da respostas (JSON)
+* **Conteúdo da respostas (JSON)**
 
 
 ---
