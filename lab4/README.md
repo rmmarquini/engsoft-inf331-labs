@@ -88,6 +88,8 @@ Content-Language: en-US
 }
 ~~~
 
+[Mais informações sobre a utilização da API do BCB](https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios)
+
 #### Serviço 2: 
 
 * Título:
