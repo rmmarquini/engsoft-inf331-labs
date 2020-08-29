@@ -38,7 +38,11 @@
 
 * **Título:** Dólar comercial (venda e compra) - cotações diárias
 * **URI:**
-```https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda=%27USD%27&@dataCotacao=%2708-28-2020%27&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao```
+
+~~~
+https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaDia(moeda=@moeda,dataCotacao=@dataCotacao)?@moeda=%27USD%27&@dataCotacao=%2708-28-2020%27&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao
+~~~
+
 * **Descrição:** Endpoint do Banco Central do Brasil para consulta de cotação do dólar na data informada (padrão MM-dd-yyyy), coletando o registro "top=1" e ordenado pela data e hora da última cotação de forma descendente. Na URI, é informado o tipo do formato JSON e solicito a seleção apenas dos atributos que me interessam: "cotacaoCompra", "contacaoVenda", "dataHoraCotacao".
 * **Cabeçalho HTTP da requisição:**
 
