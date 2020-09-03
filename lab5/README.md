@@ -28,13 +28,13 @@
 
 #### Códigos-fonte
 
-** HTML **
+**HTML**
 
 ~~~HTML
 <div id="app"></div>
 ~~~
 
-** CSS **
+**CSS**
 
 ~~~CSS
 .container h1 {
@@ -73,7 +73,7 @@
 }
 ~~~
 
-** Javascript ** 
+**Javascript** 
 
 ~~~JS
 class Repositories extends React.Component {
