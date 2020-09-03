@@ -127,8 +127,8 @@ class Repositories extends React.Component {
 }
 
 /**
-* Renderizando o componente
-*/
+ * Renderizando o componente
+ */
 ReactDOM.render(<Repositories />, document.querySelector('#app'));
 ~~~
 
